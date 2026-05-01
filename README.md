@@ -16,7 +16,8 @@
  - Value: `<your token>`
 5. In Settings > Action > General
  - Scroll down to the very bottom
- - Check `Allow GitHub Actions to create and approve pull requests` 
+ - Check `Allow GitHub Actions to create and approve pull requests`
+6. Update mkdocs.yml for your site name, description, and author.
 
 
 # Template generation 
