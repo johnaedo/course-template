@@ -1,10 +1,10 @@
 # Requirements
-- Python 3.12 or higher
+- Python 3.12 or 3.13.  Python 3.14 currently has issues.
 - [uv](https://docs.astral.sh/uv/)
 
 > [!warning]
 > As Netlify doesn't support Python past 3.8, the template **can't** be used with Netlify. 
-> Only GitHub Page is officially supported.
+> Only GitHub Pages are officially supported.
 
 # Installation
 1. Click on "use this template"
@@ -17,6 +17,7 @@
 
 
 # Template generation 
+This step builds the initial site.
 
 1. In Actions, go "Generate Website" and click on "Run workflow".
 2. Fill the items and click on "Run workflow"
