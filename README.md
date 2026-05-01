@@ -14,6 +14,9 @@
  - Click on "New repository secret"
  - Name: `GH_TOKEN`
  - Value: `<your token>`
+5. In Settings > Action > General
+ - Scroll down to the very bottom
+ - Check `Allow GitHub Actions to create and approve pull requests` 
 
 
 # Template generation 
