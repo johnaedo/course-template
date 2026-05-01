@@ -11,18 +11,22 @@ on:
         type: string
         required: true
         description: "URL for the site/course"
+        default: "http://teaching.johnaedo.com/{{github.event.repository.name}}"
       site_description:
         type: string
         required: true
         description: "Description of the content found on the site."
+        default: "Lecture slides, tutorials, assignment descriptions, supplementary resources"
       site_author:
         type: string
         required: true
         description: "Author"
+        default: "Dr. John Aedo"
       language:
         type: string
         required: true
-        description: "US-EN"
+        description: "Language"
+        default: "en-us"
       auto_h1:
         type: boolean
         required: false
@@ -36,7 +40,7 @@ on:
       auto_merge:
         description: "Automatically merge the pull request"
         required: false
-        default: false
+        default: true
         type: boolean
       submodule:
         description: If you use submodule for the docs, set this to true
